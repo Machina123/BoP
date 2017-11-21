@@ -51,5 +51,6 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-#macOS specific
+# macOS specific
+*.DS_Store
 .DS_Store

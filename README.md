@@ -1,8 +1,11 @@
 # Summary
 Repozytorium z zadaniami z Podstaw Programowania
 
-## Uwaga
-Pliki mogą się nie kompilować; w Dev-C++ w opcjach kompilatora dodaj `--std=C99`
-
 # Dostępne tematy
 * Temat 2 - zadania
+* Temat 3 - zadania
+
+# Changelog
+* 2017-11-21:
+    * dodano zadania z tematu 3
+    * zmieniono zadania z tematu 2 w celu zachowania zgodno
