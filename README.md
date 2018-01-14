@@ -5,8 +5,12 @@ Repozytorium z zadaniami z Podstaw Programowania
 ## Dostępne tematy
 * Temat 2 - zadania
 * Temat 3 - zadania
+* Temat 5 - zadania
 
 ## Changelog
+* 2018-01-14
+    * dodano zadania z tematu 5 (cz. 2)
+    
 * 2017-12-18:
     * dodano zadania z tematu 5 (cz. 1)
     
