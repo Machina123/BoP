@@ -8,7 +8,7 @@ struct ulamek {
 
 int wiekszy(struct ulamek, struct ulamek);
 void sortowanie(struct ulamek *, int);
-void wypisz(struct ulamek *);
+void wypisz(struct ulamek *, int);
 
 int main(void) {
     struct ulamek tab_ulamkow[N] = {
@@ -19,10 +19,10 @@ int main(void) {
         {8,9}
     };
     printf("Przed sortowaniem: \n");
-    wypisz(tab_ulamkow);
+    wypisz(tab_ulamkow, N);
     sortowanie(tab_ulamkow, N);
     printf("\nPo sortowaniu:\n");
-    wypisz(tab_ulamkow);
+    wypisz(tab_ulamkow, N);
     return 0;
 }
 
