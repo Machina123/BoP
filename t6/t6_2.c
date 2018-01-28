@@ -6,7 +6,7 @@ struct ulamek {
 };
 
 int wiekszy(struct ulamek, struct ulamek);
-void sortowanie(struct ulamek *, int)
+void sortowanie(struct ulamek *, int);
 
 int main(void) {
     struct ulamek u1 = {1,2}, u2 = {1,3};
