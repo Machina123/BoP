@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define N 5
 
 struct ulamek {
     int licz;
@@ -7,10 +8,21 @@ struct ulamek {
 
 int wiekszy(struct ulamek, struct ulamek);
 void sortowanie(struct ulamek *, int);
+void wypisz(struct ulamek *);
 
 int main(void) {
-    struct ulamek u1 = {1,2}, u2 = {1,3};
-    printf("%d", wiekszy(u1,u2));
+    struct ulamek tab_ulamkow[N] = {
+        {1,2},
+        {2,34},
+        {4,5},
+        {5,67},
+        {8,9}
+    };
+    printf("Przed sortowaniem: \n");
+    wypisz(tab_ulamkow);
+    sortowanie(tab_ulamkow, N);
+    printf("\nPo sortowaniu:\n");
+    wypisz(tab_ulamkow);
     return 0;
 }
 
@@ -34,4 +46,11 @@ void sortowanie(struct ulamek * t, int n){
          t[indeks]=t[i];
          t[i]=min;
      }
+}
+
+void wypisz(struct ulamek * tu, int n) {
+    int i;
+    for(i=0; i<n; i++) {
+        printf("%d/%u\n", tu[i].licz, tu[i].mian);
+    }
 }
